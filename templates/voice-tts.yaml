@@ -1,0 +1,10 @@
+# Voice defaults for Anna's Agent.
+tts:
+  provider: edge
+  note: Free/default path. Change only if the user chooses another provider.
+voice_behavior:
+  default_mode: text_until_user_enables_voice
+  recommended_commands:
+    - /voice tts
+    - /voice on
+    - /voice off

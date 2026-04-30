@@ -1,0 +1,14 @@
+# Example fragment. Merge into the annas-agent Hermes profile config; do not commit real secrets.
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+  provider: holographic
+
+tts:
+  provider: edge
+
+stt:
+  enabled: true
+  provider: local
+  local:
+    model: base

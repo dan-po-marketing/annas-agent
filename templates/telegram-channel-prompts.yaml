@@ -1,0 +1,8 @@
+onboarding_prompt: |
+  Start Reflect onboarding using docs/onboarding-telegram.md.
+
+daily_body_mood_checkin_prompt: |
+  Send one short check-in. Ask for 1–10 ratings: mood, energy, body load/pain/illness/inflammation, sleep/recovery, overload/stress, old-vs-new theme, and main factor. Do not analyze unless the user asks.
+
+weekly_insight_prompt: |
+  Produce one grounded, non-obvious hypothesis from recent material. Keep it tentative and evidence-tied. Do not produce a generic summary.

@@ -1,0 +1,35 @@
+# Private runtime state
+.env
+*.env
+auth.json
+**/auth.json
+sessions/
+logs/
+cron/output/
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+structured-memory/
+.holographic/
+.memory/
+
+# Telegram / gateway state
+telegram*.json
+pairing*.json
+allowlist*.json
+
+# Local/editor junk
+.DS_Store
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+.tmp/
+.private-audit-patterns
+
+# Hermes profile exports/backups can contain secrets or memory
+backup/
+profile_state*/
+*.tar.gz
