@@ -1,8 +1,10 @@
 # Anna's Agent
 
-A Reflect-only Hermes Agent starter: one Telegram-first assistant for evidence-first reflection, structured memory, voice replies, and lightweight check-ins.
+A Hermes-based reflective support agent template: one Telegram-first assistant for evidence-first reflection, structured memory, voice replies, and lightweight check-ins.
 
 The repo is public-safe by design. It contains docs, prompts, templates, skills, and setup scripts — not private memories, tokens, sessions, Telegram IDs, or credentials.
+
+It is designed as a reusable psychologist-style reflection agent scaffold, not a medical device, crisis service, or replacement for professional care.
 
 ## What it does
 
@@ -12,6 +14,10 @@ The repo is public-safe by design. It contains docs, prompts, templates, skills,
 - Supports Telegram as the main interface.
 - Includes TTS/voice replies from v0.
 - Offers optional daily body/mood check-ins and weekly grounded insight prompts.
+
+## Built with Codex
+
+Codex was used to help inspect, package, and polish this public-safe agent template while keeping private memories, credentials, and chat transcripts out of the repository.
 
 ## Quick start
 
